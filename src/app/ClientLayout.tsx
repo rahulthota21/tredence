@@ -17,7 +17,6 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
 
   if (!mounted) return null;
 
-  // Check if we're on auth routes
   const isAuthPage = pathname?.startsWith('/sign-in') || pathname?.startsWith('/sign-up');
 
   return (
