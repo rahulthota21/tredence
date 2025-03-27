@@ -1,0 +1,75 @@
+.section {
+  padding: 40px 24px 80px; /* Reduced top padding to avoid gap */
+  transition: background 0.3s ease;
+}
+
+.light .section {
+  background: #f9fafb;
+}
+
+.dark .section {
+  background: #0f0f0f;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Urbanist', sans-serif;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  margin-bottom: 48px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  padding: 24px;
+  transition: transform 0.3s ease;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #6366f1;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: inherit;
+}
+
+.cardDesc {
+  font-size: 0.95rem;
+  color: #bbb;
+  margin-bottom: 16px;
+}
+
+.cta {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #6366f1;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  border-color: #6366f1;
+  transform: translateY(-2px);
+}

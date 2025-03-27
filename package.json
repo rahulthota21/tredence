@@ -1,0 +1,49 @@
+{
+  "name": "travelplannerapp",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r (Local version of README)\r =======\r (Remote version of README)\r >>>>>>> origin/main",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulthota21/tredence.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rahulthota21/tredence/issues"
+  },
+  "homepage": "https://github.com/rahulthota21/tredence#readme",
+  "dependencies": {
+    "@clerk/nextjs": "^6.12.8",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.8",
+    "@mui/material": "^6.4.8",
+    "@react-spring/web": "^9.7.5",
+    "@shadcn/ui": "^0.0.4",
+    "@tanstack/react-query": "^5.69.0",
+    "canvas-confetti": "^1.9.3",
+    "framer-motion": "^12.5.0",
+    "lottie-react": "^2.4.1",
+    "lucide-react": "^0.483.0",
+    "next": "^15.2.3",
+    "next-themes": "^0.4.6",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-hook-form": "^7.54.2",
+    "swiper": "^11.2.6",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.11",
+    "typescript": "5.8.2"
+  }
+}

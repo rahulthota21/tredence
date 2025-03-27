@@ -1,0 +1,47 @@
+.footer {
+  padding: 48px 24px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  background: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: inherit;
+  transition: background 0.3s ease;
+}
+
+.brand {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.link:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.copy {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 32px;
+  width: 100%;
+}
